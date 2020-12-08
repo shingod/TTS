@@ -1,7 +1,6 @@
-View this project on [CADLAB.io](https://cadlab.io/project/1281). 
+View original project by jscrane on [CADLAB.io](https://cadlab.io/project/1281). 
 
-# TTS
-
+# ShingodTTS based on TTS
 ## Text-to-Speech for Arduino
 
 - requires an amplifier on the PWM output pin (see below)
@@ -19,6 +18,11 @@ View this project on [CADLAB.io](https://cadlab.io/project/1281).
 - Teensy LC: pin A12
 - ESP8266: pins 0 to 16 (with analogWrite())
 - ESP32: DAC1 or DAC2 (pins 25 or 26)
+
+## Shingod: I personally use this on ESP32 based boards.
+## Also, for testing, I connect spliced earphone cables directly to pin 25 and to ground without the whole amplifier setup. This works well for testing.
+
+
 
 ## Amplifier
 
